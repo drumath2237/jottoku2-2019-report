@@ -5,6 +5,7 @@
 \usepackage{ascmac, here, txfonts, txfonts}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{comment}
+\usepackage{otf}
 
 \lstset{
   basicstyle={\ttfamily},
@@ -31,9 +32,8 @@
 \begin{document}
 
 \begin{titlepage}
-  \title{情報特別演習2　最終レポート}
+  \title{情報特別演習\ajRoman{2}　最終レポート\\ Kinectによる自然な姿勢推定の実現}
   \author{情報科学類2年\\堤海斗}
-  \date{2020年2月7日}
   \maketitle
   \thispagestyle{empty}
   
@@ -55,6 +55,49 @@
     ・今後の展望
     ・演習で得られたこと
 \end{comment}
+
+\section{演習概要}
+
+\subsection{演習目的}
+
+今年の情報特別演習\ajRoman{2}では、「Kinectによる自然な姿勢推定の実現」
+というテーマで1年間演習をしてきた。
+本演習の目的は、Kinect v2というデバイスを用いて人の動きをセンサリングし、
+そのデータを人型アバターに反映するという一連のシステム、つまり
+モーションキャプチャシステムの実装において、
+より自然な姿勢推定を実現することを目的としている。
+
+本演習では以下の環境を用いる
+
+\begin{itemize}
+  \item Kinect v2
+  \item Unity 2018.4.xx 
+\end{itemize}
+
+\subsection{演習の背景}
+
+
+\section{演習手法}
+
+\subsection{FKによる姿勢推定}
+
+\subsection{自然な姿勢推定}
+
+\subsubsection{IKの導入}
+
+\subsubsection{キャリブレーションの導入}
+
+\subsubsection{フィルターの導入}
+
+\section{演習結果とまとめ}
+
+\subsection{実装結果}
+
+\subsection{現在取り組んでいる項目}
+
+\subsection{今後の展望}
+
+\subsection{本演習で学んだこと}
 
 
 \end{document}
